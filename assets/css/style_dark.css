@@ -1,30 +1,3 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome-hero
-4.  About me 
-5.  Education
-6.  Skill
-7.  Experience
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -95,11 +68,8 @@ html,body{
 }
 
 .fix{position: relative;clear: both;}
-/*=============Style css=========*/
 
-/*-------------------------------------
-        2. Header
---------------------------------------*/
+
 .top-area {
     position: relative;
     z-index: 9999;
@@ -116,7 +86,7 @@ nav.navbar.bootsnav {
     box-shadow: 0 3px 15px rgba(0,0,0,.5);
 }
 
-/*.navbar-brand*/
+
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #00c6ff;
@@ -125,9 +95,8 @@ nav.navbar.bootsnav {
     padding: 33px 0px 57px;
     text-transform: uppercase;
 }
-/*.navbar-brand*/
 
-/*.nav li*/
+
 nav.navbar.bootsnav ul.nav > li > a {
     font-size: 16px;
     font-weight: 400;
@@ -150,11 +119,9 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 }
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #00c6ff;}
-/*.nav li*/
 
 
 
-/*.menu-ui-design*/
 .menu-ui-design{overflow-y:scroll;height: 350px;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
@@ -165,11 +132,8 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 .menu-ui-design::-webkit-scrollbar-thumb {
   background-color: #00c6ff;
 }
-/*.menu-ui-design*/
 
 
-
-/*.navbar-toggle */
 nav.navbar.bootsnav .navbar-toggle {
     position: relative;
     background-color: transparent;
@@ -178,13 +142,10 @@ nav.navbar.bootsnav .navbar-toggle {
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
-/*.navbar-toggle */
 
 
 
-/*-------------------------------------
-        3.  Welcome-hero
---------------------------------------*/
+
 .welcome-hero{
     display: flex;
     align-items: center;
@@ -205,7 +166,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
     height:100%;
 }
 
-/*.header-text-area*/
+
 .header-text h2 {
     color: #fff;
     font-size: 54px;
@@ -239,14 +200,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
     transition: 0.3s linear;
 }
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:#00b3e6;border: 1px solid #00b3e6;}
-/*.header-text-area*/
 
-/*-------------------------------------
-        4.  About
---------------------------------------*/
+
+
+
 .about {padding: 50px 0 100px;}
 .about-content {padding-top: 100px;}
-/*.single-about-txt*/
+
 .single-about-txt h3 {
     font-size:18px;
     color: #3c4258;
@@ -268,9 +228,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
     text-transform: capitalize;
 }
 .single-about-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
-/*.single-about-txt*/
 
-/*.single-about-img */
+
+
+
 .single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
 .single-about-img:before {
     position:  absolute;
@@ -296,7 +257,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
     height: 90px;
     background: #1f2c6c;
 }
-/*.ab-list-icon */
+
+
 .about-list-icon ul {
     display: flex;
 }
@@ -320,13 +282,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
 .about-list-icon ul li a i {
     margin-left: 6px;
 }
-/*.ab-list-icon */
 
-/*.single-about-img */
 
-/*-------------------------------------
-        5.  Education
---------------------------------------*/
+
 
 .education {
     background: #242424;
@@ -336,7 +294,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
     padding: 80px 0;
 }
 
-/*.education-horizontal-timeline*/
+
 .education-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
@@ -344,7 +302,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #00c6ff;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
-/*.timeline-horizontal-border*/
+
 .timeline-horizontal-border {
     display:  flex;
     align-items: center;
@@ -362,13 +320,11 @@ span.single-timeline-horizontal {
     width: 380px;
 }
 span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
-/*.timeline-horizontal-border*/
 
-/*.education-horizontal-timeline*/
 
-/*-------------------------------------
-        6.  Skills
---------------------------------------*/
+
+
+
 .skills {
     
 }
@@ -435,9 +391,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
    margin-left: 0;
 }
 
-/*-------------------------------------
-        7. Experience
--------------------------------------*/
+
+
+
 .experience {
     padding: 50px 0 100px;
     border-top: 1px solid #e5ebf2;
@@ -445,7 +401,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
 
-/*experience-time*/
+
+
+
 .experience-time {
     position: relative;
 }
@@ -459,9 +417,11 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top: 14px;
     text-transform: uppercase;
 }
-/*experience-time*/
 
-/*main-timeline*/
+
+
+
+
 .main-timeline{
     position: relative;
 }
@@ -516,9 +476,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .experience-time-responsive{display: none;}
-/*-------------------------------------
-        8. Profiles
---------------------------------------*/
+
+
+
+
 .profiles {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
@@ -591,9 +552,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
-/*-------------------------------------
-        9. Portfolio
---------------------------------------*/
+
+
+
+
 .portfolio {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
@@ -601,7 +563,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 .portfolio-content {padding-top: 100px;}
 
-/* ---- .item ---- */
+
 .isotope:after {
     content: '';
     display: block;
@@ -612,7 +574,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     overflow:hidden;
     margin-bottom: 30px;
 }
-/*.item img*/
+
 .isotope .item img{
     width:100%;
     height:100%;
@@ -628,9 +590,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -ms-transform:scale(1.5);
     -o-transform:scale(1.5);
     transform:scale(1.5);
-}/*.item img*/
+}
 
-/*.isotope-overlay*/
+
+
 .isotope-overlay{
     position:absolute;
     height:100%;
@@ -665,29 +628,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transform:scale(1);
     transform:scale(1);
     top:0;
-}/*.isotope-overlay*/
-
-/*-------------------------------------
-        10. Clients
---------------------------------------*/
-.clients {padding-top: 50px;}
-.clients-area {
-    display: flex;
-    align-items: center;
-    height: 250px;
-}
-.clients-area .item {padding: 0 25px;}
-
-.clients .clients-area .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius:0;
 }
 
-/*-------------------------------------
-        11. Contact
---------------------------------------*/
+
+
 .contact {
     background: #242424;
     padding: 50px 0 100px;
@@ -709,7 +653,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     resize: none;
 }
 
-/*--contct button--*/
+
 .contact-form .single-contact-btn {
     display:flex;
     align-items:center;
@@ -748,9 +692,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
-/*--contct button--*/
 
-/* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
     color:  #3c4258;
@@ -762,7 +704,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight:  300;
     margin-top:  6px;
 }
-/* contact-adress */
+
 
 .skill-logo-container {
     padding: 20px;
@@ -782,7 +724,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 16px;
 }
 
-/*.contact-add-info */
+
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
     color:  #636a82;
@@ -796,9 +738,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-contact-add-info {
     margin-bottom:  26px;
 }
-/*.contact-add-info */
 
-/*hm-foot-icon*/
 .hm-foot-icon {
    
 }
@@ -814,7 +754,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .hm-foot-icon ul li>a:hover{
     color: #00c6ff;
-}/*hm-foot-icon*/
+}
 
 .hm-footer-copyright p{
     color: #888ea5;
@@ -822,9 +762,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding: 38px 0;
 }
 .hm-footer-copyright p a {color: #888ea5;}
-/*===============================
-    Scroll Top
-===============================*/
+
+
 #scroll-Top  .return-to-top {
     position: fixed;
     right: 30px;
@@ -870,4 +809,3 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
